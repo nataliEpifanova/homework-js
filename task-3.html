@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<head>
+<title>Домашнее задание</title>
+<script>
+// Задание 2
+for (var trian = "#"; trian.length <=7; trian += "#")
+
+    console.log(trian);
+
+
+// Задание 3
+var result = '\n', cell, row;
+	for(row = 1; row <= 8; row++) {
+		for(cell = 1; cell <= 8; cell++) {
+		     if(row % 2 == cell % 2) {
+					result+= '#';
+				} else {
+					result+= ' ';
+				}
+			} 
+		result += "\n";
+	}
+	console.log(result);
+
+</script>
+</head>
+</html>
+
